@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+body, html{
+    background-color: black;
+
+
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 300px;
+    height: 550px;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    
+
+
+}
+
+section > div#imagem{
+    background-image: url(../imgs/predio2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    
+
+}
+section > div#formulario{
+   padding: 20px; 
+   text-align: center;
+
+
+}
