@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
@@ -18,8 +19,26 @@
 
         </div>
         <form action="login.php" method="post">
-            <label for="isenha">Login</label>
-            <input type="password" name="senha" id="isenha">
+            <div id="campo">
+                <label for="iemail"><span class="material-symbols-outlined">
+                    person
+                    </span></label>
+                <input type="email" name="email" id="iemail">
+            </div>
+            <div id="campo">
+                <label for="isenha"><span class="material-symbols-outlined">
+                    encrypted
+                    </span></label>
+                <input type="password" name="senha" id="isenha">
+
+            </div>
+            <input type="submit">
+            <div id="botao">
+                <a href="#">Esqueci a senha</a>
+                <p><span class="material-symbols-outlined">
+                    mail
+                    </span></p>
+            </div>
 
 
 
