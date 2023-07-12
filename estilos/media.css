@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*
+600 - 768
+768 - 992
+992 - 1200
+1200+
+
+
+*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background: linear-gradient(to top,#ada9a98f,  #202020);
+    }
+    section#login{
+        width: 550px;
+
+
+    }
+    section > div#imagem{
+        float: left;
+        width: 100%;
+        height: 200px;
+
+    }
+    section > div#formulario{
+        float: right;
+        
+
+
+    }
+   
+    
+}
